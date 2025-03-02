@@ -54,8 +54,8 @@ ctx.strokeStyle="red"
 ctx.fillRect(snake[i].x, snake[i].y, scale, scale);
 ctx.strokeRect(snake[i].x, snake[i].y, scale, scale);
 }
-ctx.fillStyle="red"
-ctx.strokeStyle="green"
+ctx.fillStyle="blue"
+ctx.strokeStyle="grey"
 ctx.fillRect(food.x, food.y, scale, scale);
 ctx.strokeRect(food.x, food.y, scale, scale);
 
